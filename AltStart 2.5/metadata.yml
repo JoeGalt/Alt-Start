@@ -1,0 +1,6 @@
+name: "Alternative Starting Units"
+version: "2.5"
+description: "Alternative starting units for xpiratez"
+author: "John Doe"
+id: pir-alt-start
+master: piratez

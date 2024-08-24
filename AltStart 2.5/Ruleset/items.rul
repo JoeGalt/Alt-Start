@@ -1,0 +1,69 @@
+items:
+  - type: STR_ALT_WOOD_APPLE
+    categories: [STR_BAT_CAT_ARTIFACT]
+    requires:
+      - STR_UNAVAILABLE
+    size: 0.1
+    weight: 4
+    costSell: 0
+#    bigSprite: 612
+#    floorSprite: 612
+    battleType: 10
+    power: 13
+    costThrow:
+      energy: 20
+      time: 40
+    armor: 100
+    recoveryPoints: 100
+    listOrder: 16062
+  - type: STR_GNOME_GUIDE
+    categories: [STR_BAT_CAT_ARTIFACT]
+    size: 0.1
+    weight: 4
+    costSell: 0
+#    bigSprite: 612
+#    floorSprite: 612
+    battleType: 10
+    power: 13
+    costThrow:
+      energy: 20
+      time: 40
+    armor: 100
+    recoveryPoints: 100
+    listOrder: 16063
+  - type: STR_NEKO_GUIDE
+    categories: [STR_BAT_CAT_ARTIFACT]
+    size: 0.1
+    weight: 4
+    costSell: 0
+#    bigSprite: 612
+#    floorSprite: 612
+    battleType: 10
+    power: 13
+    costThrow:
+      energy: 20
+      time: 40
+    armor: 100
+    recoveryPoints: 100
+    listOrder: 16064
+startingBase:
+  items:
+    STR_ALT_WOOD_APPLE: 18
+    STR_RAYGUN: 1
+    STR_RAYGUN_CLIP: 3
+    STR_SHIV: 5
+    STR_NOOSE: 3
+    STR_FLINTLOCK_BALLS: 10
+    STR_SHOTGUN_G_SHELLS: 5
+    STR_PIR_CANNONBALL: 3
+    STR_MOLOTOV: 4
+    STR_ANARCHY_BOMB: 2
+    STR_TINY_DRILL: 1
+    STR_ELERIUM_115: 5
+    STR_JUNK_PILE: 16
+    STR_BIG_ROCK: 169
+    STR_SCRAP_METAL: 100
+    STR_MENACING_HULL: 1
+    STR_RAIDER_CORPSE: 6
+    STR_MUTANT_MEAT: 6
+    STR_LAND_DEED: 1

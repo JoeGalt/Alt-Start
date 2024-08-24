@@ -1,0 +1,11 @@
+research:
+  - name: STR_GNOME_GUIDE
+    cost: 20
+    points: 0
+    needItem: true
+    lookup: STR_SOLDIER_TYPE_GNOME
+  - name: STR_NEKO_GUIDE
+    cost: 20
+    points: 0
+    needItem: true
+    lookup: STR_SOLDIER_TYPE_NEKOMIMI

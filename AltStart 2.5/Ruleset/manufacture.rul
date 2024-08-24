@@ -1,0 +1,364 @@
+manufacture:
+  - name: STR_ALT_WOOD_APPLE_CLONE
+    category: STR_RECRUITMENT
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_ALT_WOOD_APPLE: 2
+    spawnedPersonType: STR_SOLDIER_PEASANT
+    spawnedPersonName: Assault Clone
+    spawnedSoldier:
+        nationality: 20
+        rank: 1
+        armor: STR_PEASANT_ARMOR_BIOAQUA_EVA_UC
+        initialStats:
+          tu: 70
+          stamina: 100
+          health: 45
+          bravery: 90
+          reactions: 60
+          firing: 75
+          throwing: 60
+          strength: 40
+          psiStrength: 50
+          psiSkill: 0
+          melee: 70
+          mana: 30
+        currentStats:
+          tu: 70
+          stamina: 100
+          health: 45
+          bravery: 90
+          reactions: 60
+          firing: 75
+          throwing: 60
+          strength: 40
+          psiStrength: 50
+          psiSkill: 0
+          melee: 70
+          mana: 30
+        previousTransformations:
+          STR_THEBAN_ASSAULT_CLONE: 1
+        transformationBonuses:
+          STR_THEBAN_ASSAULT_CLONE: 1
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+    producedItems: {}
+    refund: true
+    listOrder: 1
+  - name: STR_ALT_WOOD_APPLE_HERO
+    category: STR_RECRUITMENT
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_ALT_WOOD_APPLE: 3
+    spawnedPersonType: STR_SOLDIER_HERO
+    spawnedSoldier:
+        transformationBonuses:
+          STR_HEROIC: 1
+          STR_IRON_SKIN_TRAIT: 1
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+    producedItems: {}
+    refund: true
+    listOrder: 1
+  - name: STR_ALT_WOOD_APPLE_CATGIRL
+    category: STR_RECRUITMENT
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_ALT_WOOD_APPLE: 1
+    spawnedPersonType: STR_SOLDIER_NEKOMIMI
+    spawnedSoldier:
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+    producedItems: 
+      STR_NEKO_GUIDE: 1
+    refund: true
+    listOrder: 1
+  - name: STR_ALT_WOOD_APPLE_GNOME
+    category: STR_RECRUITMENT
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_ALT_WOOD_APPLE: 2
+    spawnedPersonType: STR_SOLDIER_GNOME
+    spawnedSoldier:
+        armor: STR_GNOME_NUDE_UC
+        currentStats:
+          strength: 20
+          tu: 70
+          stamina: 175
+          throwing: 125
+        transformationBonuses:
+          STR_WILD_TRAIT: 1
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+    producedItems: 
+      STR_GNOME_GUIDE: 1
+    refund: true
+    listOrder: 1
+  - name: STR_ALT_WOOD_APPLE_LOKNAR
+    category: STR_RECRUITMENT
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_ALT_WOOD_APPLE: 1
+    spawnedPersonType: STR_SOLDIER_LOKNAR
+    spawnedSoldier:
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+    producedItems: {}
+    refund: true
+    listOrder: 1
+  - name: STR_ALT_WOOD_APPLE_HYBRID
+    category: STR_RECRUITMENT
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_ALT_WOOD_APPLE: 2
+    spawnedPersonType: STR_SOLDIER_HYBRID
+    spawnedSoldier:
+        armor: STR_HYBRID_ARMOR_THINMAN_UC
+        transformationBonuses:
+          STR_REVOLUTIONARY: 1
+          STR_SUN_WARRIOR: 1
+          STR_BEEFY_TRAIT: 1
+        previousTransformations:
+          STR_REVOLUTIONARY_TRAINING: 1
+          STR_SUN_WARRIORS_TRAINING: 1
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+    producedItems: {}
+    refund: true
+    listOrder: 1
+  - name: STR_ALT_WOOD_APPLE_OGRE
+    category: STR_RECRUITMENT
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_ALT_WOOD_APPLE: 2
+    spawnedPersonType: STR_SOLDIER_OGRE
+    spawnedSoldier:
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+    producedItems: {}
+    refund: true
+    listOrder: 1
+  - name: STR_ALT_WOOD_APPLE_DAMSEL
+    category: STR_RECRUITMENT
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_ALT_WOOD_APPLE: 1
+    spawnedPersonType: STR_SOLDIER_DAMSEL
+    spawnedSoldier:
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+    producedItems: {}
+    refund: true
+    listOrder: 1
+  - name: STR_ALT_WOOD_APPLE_FREAK
+    category: STR_RECRUITMENT
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_ALT_WOOD_APPLE: 3
+    spawnedPersonType: STR_SOLDIER_X
+    spawnedSoldier:
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+    producedItems: {}
+    refund: true
+    listOrder: 1
+  - name: STR_ALT_WOOD_APPLE_BLOODOGE
+    category: STR_RECRUITMENT
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_ALT_WOOD_APPLE: 1
+    spawnedPersonType: STR_SOLDIER_BLOODOGE
+    spawnedSoldier:
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+    producedItems: {}
+    refund: true
+    listOrder: 1
+  - name: STR_ALT_WOOD_APPLE_GUIDE
+    category: STR_RECRUITMENT
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_ALT_WOOD_APPLE: 3
+    spawnedPersonType: STR_SOLDIER_PEASANT
+    spawnedSoldier:
+        armor: STR_PEASANT_ARMOR_DURASUIT_UC
+        nationality: 31
+        currentStats:
+          tu: 75
+          stamina: 100
+          health: 50
+          firing: 75
+          throwing: 75
+          melee: 75
+          reactions: 75
+          strength: 40
+          bravery: 90
+          psiStrength: 60
+          mana: 125
+        previousTransformations:
+          STR_REVOLUTIONARY_TRAINING: 1
+          STR_NIGHTSHADE_AUGMENTATION: 1
+          STR_MILITIA_TRAINING: 1
+          STR_BASIC_FIREARMS_TRAINING: 1
+        transformationBonuses:
+          STR_REVOLUTIONARY: 1
+          STR_NIGHTSHADE: 1
+          STR_MILITIA_TRAINING: 1
+          STR_BASIC_FIREARMS_TRAINING: 1
+          STR_WILD_TRAIT: 1
+          STR_SUPERSOLDIER_TRAIT: 1
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+    producedItems: {}
+    refund: true
+    listOrder: 1
+  - name: STR_ALT_WOOD_APPLE_COMMANDO
+    category: STR_RECRUITMENT
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_ALT_WOOD_APPLE: 2
+    spawnedPersonType: STR_SOLDIER_SLAVE
+    spawnedSoldier:
+        rank: 1
+        currentStats:
+          tu: 75
+          stamina: 97
+          health: 46
+          bravery: 80
+          reactions: 56
+          firing: 80
+          throwing: 70
+          strength: 50
+          psiStrength: 54
+          melee: 75
+          mana: 112
+        previousTransformations:
+          STR_SUN_WARRIORS_TRAINING: 1
+          STR_BASIC_FIREARMS_TRAINING: 1
+        transformationBonuses:
+          STR_SNIPER_TRAIT: 1
+          STR_TOUGH_TRAIT: 1
+          STR_WILD_TRAIT: 1
+          STR_LUCKY_TRAIT: 1
+          STR_SUN_WARRIOR: 1
+          STR_BASIC_FIREARMS_TRAINING: 1
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+    producedItems: {}
+    refund: true
+    listOrder: 1
+  - name: STR_ALT_WOOD_APPLE_THEBAN
+    category: STR_RECRUITMENT
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_ALT_WOOD_APPLE: 3
+    spawnedPersonType: STR_SOLDIER_NEKOMIMI_W
+    spawnedPersonName: Theban Assault Catgirl
+    spawnedSoldier:
+        armor: STR_NEKO_BELLE_UC
+        rank: 1
+        currentStats:
+          tu: 90
+          stamina: 110
+          health: 35
+          bravery: 100
+          reactions: 100
+          firing: 90
+          throwing: 60
+          strength: 30
+          psiStrength: 77
+          melee: 100
+          mana: 60
+        previousTransformations:
+          STR_THEBAN_ASSAULT_CLONE: 1
+          STR_SWIFTPAW_TRAINING: 1
+          STR_MAGICIENNE_TRAINING: 1
+          STR_CAREER_SOLDIER: 1
+          STR_NEPOTISM: 1
+          STR_PERSONAL_ATTENTION: 1
+          STR_BRIDES_TO_THE_QUEEN: 1
+        transformationBonuses:
+          STR_THEBAN_ASSAULT_CLONE: 1
+          STR_GLAMOUROUS_TRAIT: 1
+          STR_SUPERSOLDIER_TRAIT: 1
+          STR_NEKO_SWIFTPAW: 1
+          STR_MAGICIENNE: 1
+          STR_HYPNOTIC_TRAIT: 1
+          STR_CAREER_SOLDIER: 1
+          STR_NEPOTISM: 1
+          STR_PERSONAL_ATTENTION: 1
+          STR_BRIDE: 1
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+    producedItems: 
+      STR_NEKO_GUIDE: 1
+    refund: true
+    listOrder: 1
+  - name: STR_ALT_WOOD_APPLE_THEURGE
+    category: STR_RECRUITMENT
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_ALT_WOOD_APPLE: 2
+    spawnedPersonType: STR_SOLDIER_DAMSEL
+    spawnedSoldier:
+        armor: STR_NUN_OUTFIT_UC
+        currentStats:
+          stamina: 64
+          bravery: 80
+          psiSkill: 45
+          psiStrength: 72
+        transformationBonuses:
+          STR_ORTHODOX_MAGE_TRAIT: 1
+          STR_MAGICIENNE: 1
+          STR_REVOLUTIONARY: 1
+          STR_INDESTRUCTIBLE_TRAIT: 1
+        previousTransformations:
+          STR_REVOLUTIONARY_TRAINING: 1
+          STR_MAGICIENNE_TRAINING: 1
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+    producedItems: {}
+    refund: true
+    listOrder: 1
